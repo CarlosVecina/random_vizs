@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "plotnine-geo-data"
+version = "0.1.0"
+description = ""
+authors = ["CarlosVecina <carlosvecinatebar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+geopandas = "^1.0.1"
+shapely = "^2.0.5"
+pydantic = "^2.8.2"
+numpy = "^2.0.1"
+plotnine = "^0.13.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
